@@ -6,6 +6,14 @@ user = username
 passwd = password
 port = number_of_port
 
+;Tables of databas
+[TABLENAME]
+title = "table name in webapp"
+table = "object name in project"
+columns[field] = "alias"
+tableDB = "table name in database"
+orderbyDB = "field to sort the result-set in ascending or descending order"
+
 # About
 [folders]
 helpers - helper functions that facilitate repetitive work
